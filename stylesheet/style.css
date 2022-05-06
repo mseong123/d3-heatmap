@@ -1,0 +1,44 @@
+body {
+  font-family:Helvetica,Arial,sans-serif;
+  background-color:#35978f;
+}
+
+#title,
+#description {
+  text-align:center;
+  margin:0;
+  
+}
+#title {
+  padding-top:10px;
+  color:#01665e;
+}
+#description {
+  padding-bottom:5px;
+  color:#bf812d
+}
+
+.container {
+  width:900px;
+  height:540px;
+  margin:0 auto;
+  background-color:white;
+  border-radius:7px;
+  position:relative;
+}
+
+#tooltip {
+  position:absolute;
+  opacity:0;
+  pointer-events:none;
+  color:white;
+  background:#bf812d;
+  padding:10px;
+  border-radius:4px;
+}
+#legend {
+  width:200px;
+  border:solid;
+  margin:0 auto;
+}
+
